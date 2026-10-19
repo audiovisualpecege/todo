@@ -1,0 +1,1 @@
+import{r as e}from"./core-CX2q_Umj.js";async function t(t,n){await e(`plugin:opener|open_url`,{url:t,with:n})}export{t as openUrl};

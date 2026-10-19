@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>To Do</title>
+  <!--
+    Ícone do produto To Do (não é o ícone da Chiaro).
+    Ladrilho com cantos de 22 por cento preenchido com o gradiente oficial da Chiaro
+    (Lavanda #8C4EDB, Violeta #672FA2, Ametista profunda #2E1F5B, 90 graus).
+    Em branco: o arco de um relógio aberto no canto inferior direito que continua como um sinal de feito,
+    uma marca das 12 horas, pontas redondas e traço grosso para ler em 16 px.
+  -->
+  <defs>
+    <linearGradient id="gradient-chiaro" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8C4EDB"/>
+      <stop offset="0.5" stop-color="#672FA2"/>
+      <stop offset="1" stop-color="#2E1F5B"/>
+    </linearGradient>
+  </defs>
+  <rect id="tile" x="0" y="0" width="512" height="512" rx="112.64" ry="112.64" fill="url(#gradient-chiaro)"/>
+  <g id="symbol">
+    <path d="M168 262 L226 320 L342 133 A150 150 0 1 0 385 333" fill="none" stroke="#FFFFFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256 152 L256 176" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
+  </g>
+</svg>
